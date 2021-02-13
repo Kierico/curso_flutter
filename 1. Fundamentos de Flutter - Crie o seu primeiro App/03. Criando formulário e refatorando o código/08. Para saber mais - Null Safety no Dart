@@ -1,0 +1,10 @@
+O Dart oferece também o suporte para o 'null safety', uma técnica para melhorar a segurança de referências nulas. Por meio desta técnica, temos acesso aos tipos que podem ser nulos, como por exemplo:
+
+    final int? numeroConta = int.tryParse(_controladorCampoNumeroConta.text);
+
+Com o tipo 'int?', só somos capazes de enviar como argumento ou chamar membros da variável deste tipo, apenas quando garantimos que ela não é nula! Dessa forma, a própria linguagem nos ajuda a evitar problemas de exceptions por referências nulas.
+
+Caso você tenha interesse em conhecer mais sobre o assunto, você pode ¹"verificar a documentação do Dart que detalha o uso do null safety".
+¹ https://dart.dev/null-safety#enable-null-safety
+
+    No momento que a atividade foi criada, o null safety estava em beta, ou seja, exige configurações a mais para utilizá-lo. Dependendo da versão que esteja utilizando, talvez não há a necessidade de configurar a versão beta para utilizá-lo.
