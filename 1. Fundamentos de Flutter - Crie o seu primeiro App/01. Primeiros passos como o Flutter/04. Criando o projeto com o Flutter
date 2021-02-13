@@ -1,0 +1,12 @@
+Após preparar o ambiente, abra um prompt ou terminal e execute o comando 'flutter create bytebank' para criar o projeto com o nome 'bytebank'.
+
+Depois que o Flutter concluir a criação, rode o emulador com o comando 'flutter emulators --launch id-do-emulador'. O id do emulador pode ser encontrado a partir do comando 'flutter emulators' que apresenta um conteúdo similar a esse:
+
+    Pixel_2_API_28   • pixel_2 • Google • Pixel 2 API 28
+
+Nesse caso é o 'Pixel_2_API_28', então o comando fica 'flutter emulators --launch Pixel_2_API_28'. Aparecendo o emulador, entre no diretório 'bytebank' e execute o comando flutter run e confira se apresenta o App conforme o vídeo.
+
+É válido notar que na versão 1.7 esse é o App modelo, porém, conforme a ferramenta vai evoluíndo outro modelo pode ser criado.
+
+    OPINIÃO DO INSTRUTOR:
+Caso seja um outro modelo, não se preocupe, pois não iremos usá-lo como base para desenvolver o App durante o curso.
