@@ -44,5 +44,3 @@ Durante o curso utilizaremos o IntelliJ, sendo assim, você pode escolher entre 
     O Android Studio é um IntelliJ Community personalizado com tudo o que você precisa para desenvolver com o Flutter, segundo a documentação. Portanto, você pode baixar apenas o Android Studio e utilizá-lo como IDE também!
 
 Após realizar todas as configurações, você pode verificar se o ambiente configurado está correto com 'flutter doctor' e se tudo der certo, podemos prosseguir com a próxima atividade.
-
-
