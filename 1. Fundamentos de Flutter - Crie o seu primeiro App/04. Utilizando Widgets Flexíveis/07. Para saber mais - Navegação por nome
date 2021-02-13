@@ -1,0 +1,3 @@
+Além da navegação que vimos durante o curso que utiliza o 'push()', é possível também configurar rotas diretamente no 'MaterialApp' e navegar por meio do 'pushNamed()' que recebe a rota como String e entra na tela configurada. Caso tenha interesse em realizar esse tipo de configuração, ¹"confira esse tutorial da documentação".
+
+¹https://flutter.dev/docs/cookbook/navigation/named-routes
