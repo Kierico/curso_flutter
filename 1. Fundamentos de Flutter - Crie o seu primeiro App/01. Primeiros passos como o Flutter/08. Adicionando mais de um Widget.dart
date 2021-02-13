@@ -38,7 +38,6 @@ Não precisa se preocupar com o conteúdo do 'Text', o objetivo do exercício é
 
 import 'package:flutter/material.dart';
 
-void main() => runApp(Text('Bem vindo ao Bytebank', textDirection: TextDirection.ltr,)); 
 void main() => runApp(
       Column(
         children: <Widget>[

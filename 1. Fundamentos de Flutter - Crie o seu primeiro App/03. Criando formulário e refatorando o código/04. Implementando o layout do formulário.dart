@@ -26,7 +26,9 @@ Depois de finalizar os ajustes, confira se o layout atende ao layout da proposta
   OPINIÃO DO INSTRUTOR:
 
 import 'package:flutter/material.dart';
+
 void main() => runApp(BytebankApp());
+
 class BytebankApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -37,12 +39,12 @@ class BytebankApp extends StatelessWidget {
     );
   }
 }
+
 class FormularioTransferencia extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Criando Transferência'),),
-        body: Text('teste'));
         body: Column(
           children: <Widget>[
             Padding(
@@ -100,9 +102,13 @@ class ListaTransferencias extends StatelessWidget {
     );
   }
 }
+
 class ItemTransferencia extends StatelessWidget {
+
   final Transferencia _transferencia;
+
   ItemTransferencia(this._transferencia);
+
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -113,9 +119,11 @@ class ItemTransferencia extends StatelessWidget {
     ));
   }
 }
+
 class Transferencia {
   final double valor;
   final int numeroConta;
+
   Transferencia(this.valor, this.numeroConta);
 }
 

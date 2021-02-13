@@ -21,32 +21,6 @@ Realize os ajustes necessários e teste o código conferindo se apresenta o resu
 
 import 'package:flutter/material.dart';
 
-void main() => runApp(
-      Column(
-        children: <Widget>[
-          Text(
-            'Deliver features faster',
-            textDirection: TextDirection.ltr,
-          ),
-          Text(
-            'Craft beautiful UIs',
-            textDirection: TextDirection.ltr,
-          ),
-          Text(
-            'Craft beautiful UIs',
-            textDirection: TextDirection.ltr,
-          ),
-          Column(
-            children: <Widget>[
-              Text(
-                'Craft beautiful UIs',
-                textDirection: TextDirection.ltr,
-              ),
-            ],
-          )
-        ],
-      ),
-    );
 void main() => runApp(MaterialApp(
   home: Scaffold(
     appBar: AppBar(title: Text('Transferências'),),

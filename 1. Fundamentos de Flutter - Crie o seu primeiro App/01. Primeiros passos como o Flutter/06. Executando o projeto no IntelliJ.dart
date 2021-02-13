@@ -11,6 +11,16 @@ Modifique o código para que apresente apenas o texto 'Bem vindo ao Bytebank' co
 Então adiciona o 'Text()' dentro do 'runApp' enviando a 'String' via argumento. Lembre-se de configurar o TextDirection para evitar o problema de execução. Teste o App e veja se apresenta a tela esperada. */
 
     OPINIÃO DO INSTRUTOR:
+
+import 'package:flutter/material.dart';
+
+void main() => runApp(Text('Bem vindo ao Bytebank', textDirection: TextDirection.ltr,));
+
+/* https://github.com/alura-cursos/flutter-fundamentos/commit/28942dc60d62609793f1b6951468b9f9d7d0cb84 */
+
+
+  AQUI APP TEXT GERADO PELO FLUTTER ( só para ver).
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -122,7 +132,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-void main() => runApp(Text('Bem vindo ao Bytebank', textDirection: TextDirection.ltr,));
-
-
-/* https://github.com/alura-cursos/flutter-fundamentos/commit/28942dc60d62609793f1b6951468b9f9d7d0cb84 */

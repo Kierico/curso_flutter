@@ -23,6 +23,7 @@ Por fim, teste o App e veja se a transferência é criada quando ao clicar no bo
 import 'package:flutter/material.dart';
 
 void main() => runApp(BytebankApp());
+
 class BytebankApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -42,7 +43,6 @@ class FormularioTransferencia extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Criando Transferência'),),
         appBar: AppBar(
           title: Text('Criando Transferência'),
         ),
@@ -51,15 +51,9 @@ class FormularioTransferencia extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: TextField(
-                style: TextStyle(
-                  fontSize: 24.0
-                ),
                 controller: _controladorCampoNumeroConta,
                 style: TextStyle(fontSize: 24.0),
                 decoration: InputDecoration(
-                  labelText: 'Número da conta',
-                  hintText: '0000'
-                ),
                     labelText: 'Número da conta', hintText: '0000'),
                 keyboardType: TextInputType.number,
               ),
@@ -67,16 +61,9 @@ class FormularioTransferencia extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: TextField(
-                style: TextStyle(
-                  fontSize: 24.0
-                ),
                 controller: _controladorCampoValor,
                 style: TextStyle(fontSize: 24.0),
                 decoration: InputDecoration(
-                  icon: Icon(Icons.monetization_on),
-                  labelText: 'Valor',
-                  hintText: '0.00'
-                ),
                     icon: Icon(Icons.monetization_on),
                     labelText: 'Valor',
                     hintText: '0.00'),
@@ -124,10 +111,10 @@ class ListaTransferencias extends StatelessWidget {
 }
 
 class ItemTransferencia extends StatelessWidget {
-
   final Transferencia _transferencia;
 
   ItemTransferencia(this._transferencia);
+
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -144,7 +131,6 @@ class Transferencia {
   final int numeroConta;
 
   Transferencia(this.valor, this.numeroConta);
-} 
 
   @override
   String toString() {

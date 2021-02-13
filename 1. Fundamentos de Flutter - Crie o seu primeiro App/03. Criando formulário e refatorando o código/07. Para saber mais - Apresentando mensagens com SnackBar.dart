@@ -3,8 +3,9 @@
 Dentre as possibilidades, temos o ¹"SnackBar" que pode apresentar conteúdo em uma barra na parte inferior da tela, conforme o exemplo:
 ¹ https://api.flutter.dev/flutter/material/SnackBar-class.html */
 
+  OPINIÃO DO INSTRUTOR:
 
-/* import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 void main() => runApp(BytebankApp());
 
@@ -23,6 +24,7 @@ class FormularioTransferencia extends StatelessWidget {
   final TextEditingController _controladorCampoNumeroConta =
       TextEditingController();
   final TextEditingController _controladorCampoValor = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -63,12 +65,12 @@ class FormularioTransferencia extends StatelessWidget {
                     double.tryParse(_controladorCampoValor.text);
                 if (numeroConta != null && valor != null) {
                   final transferenciaCriada = Transferencia(valor, numeroConta);
-                  debugPrint('$transferenciaCriada'); */
+                  debugPrint('$transferenciaCriada');
                   Scaffold.of(context).showSnackBar(
                     SnackBar(
                       content: Text('$transferenciaCriada'),
                     ),
-                  ); /*
+                  );
                 }
               },
             )
@@ -100,7 +102,9 @@ class ListaTransferencias extends StatelessWidget {
 
 class ItemTransferencia extends StatelessWidget {
   final Transferencia _transferencia;
+
   ItemTransferencia(this._transferencia);
+
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -115,11 +119,15 @@ class ItemTransferencia extends StatelessWidget {
 class Transferencia {
   final double valor;
   final int numeroConta;
+
   Transferencia(this.valor, this.numeroConta);
+
   @override
   String toString() {
     return 'Transferencia{valor: $valor, numeroConta: $numeroConta}';
   }
-} */
+
+
+}
 
 /* https://github.com/alura-cursos/flutter-fundamentos/commit/3f2c8aea157a124fa4fca03f295f849e202ba6c2 */
