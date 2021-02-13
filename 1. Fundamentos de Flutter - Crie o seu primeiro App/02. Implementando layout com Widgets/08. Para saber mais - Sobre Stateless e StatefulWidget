@@ -1,0 +1,6 @@
+Durante a extração de código, vimos as referências 'StatelessWidget' e 'StatefulWidget', implementações da classe abstrata 'Widget', que permitem encapsular outros Widget dentro de classes que dão mais significado dentro do nosso App.
+
+Vimos que a principal diferença entre eles está relacionado à possibilidade de modificar o conteúdo dinamicamente com base em eventos ou não, porém, ainda não entramos em detalhes.
+
+Caso tenha interesse em saber mais detalhes, ¹"confira essa página da documentação que apresenta mais informações sobre o uso desses Widgets".
+¹ https://flutter.dev/docs/development/ui/interactive#stateful-and-stateless-widgets
