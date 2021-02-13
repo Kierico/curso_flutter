@@ -11,6 +11,7 @@ Em seguida, envolva o Card em um Column e adicione mais um card com a mesma estr
 Teste o código e veja se apresenta o resultado esperado com base na proposta de implementação. */
 
   OPINIÃO DO INSTRUTOR:
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
@@ -39,3 +40,5 @@ void main() => runApp(MaterialApp(
     ),
   ),
 ));
+
+/* https://github.com/alura-cursos/flutter-fundamentos/commit/e2cafe51e48497d94292e666047bb0ef9df47294 */

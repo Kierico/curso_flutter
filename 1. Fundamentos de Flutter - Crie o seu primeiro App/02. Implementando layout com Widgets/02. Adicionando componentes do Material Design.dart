@@ -55,3 +55,5 @@ void main() => runApp(MaterialApp(
     ),
   ),
 ));
+
+/* https://github.com/alura-cursos/flutter-fundamentos/commit/501317683e4cf912890c738b4b773d8c704963f1 */
