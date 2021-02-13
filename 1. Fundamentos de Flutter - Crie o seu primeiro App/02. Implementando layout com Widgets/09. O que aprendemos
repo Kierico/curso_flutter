@@ -1,0 +1,7 @@
+Nesta aula, aprendemos:
+
+    A implementar um layout com os componentes do Material Design;
+    Atalhos e dicas para auxiliar a implementação do layout;
+    Refatorar os próprios Widgets;
+    O que é StatelessWidget e StatefulWidget;
+    Organizar e reutilizar código no Flutter.
