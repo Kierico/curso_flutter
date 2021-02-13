@@ -1,4 +1,4 @@
-Agora vamos abrir o projeto no IntelliJ, como primeiro passo, feche o prompt ou terminal que foi usado para abrir o emulador e executar o projeto.
+/* Agora vamos abrir o projeto no IntelliJ, como primeiro passo, feche o prompt ou terminal que foi usado para abrir o emulador e executar o projeto.
 
 Em seguida, abra o IntelliJ e na tela de launcher escolha a opção 'Open' e selecione o diretório do projeto criado pelo Flutter e clique em 'OK'. Aguarde o IntelliJ finalizar todas as tarefas para configurar o projeto.
 
@@ -8,7 +8,7 @@ Modifique o código para que apresente apenas o texto 'Bem vindo ao Bytebank' co
 
     void main() => runApp();
 
-Então adiciona o 'Text()' dentro do 'runApp' enviando a 'String' via argumento. Lembre-se de configurar o TextDirection para evitar o problema de execução. Teste o App e veja se apresenta a tela esperada.
+Então adiciona o 'Text()' dentro do 'runApp' enviando a 'String' via argumento. Lembre-se de configurar o TextDirection para evitar o problema de execução. Teste o App e veja se apresenta a tela esperada. */
 
     OPINIÃO DO INSTRUTOR:
 import 'package:flutter/material.dart';
@@ -125,4 +125,4 @@ class _MyHomePageState extends State<MyHomePage> {
 void main() => runApp(Text('Bem vindo ao Bytebank', textDirection: TextDirection.ltr,));
 
 
-https://github.com/alura-cursos/flutter-fundamentos/commit/28942dc60d62609793f1b6951468b9f9d7d0cb84
+/* https://github.com/alura-cursos/flutter-fundamentos/commit/28942dc60d62609793f1b6951468b9f9d7d0cb84 */
