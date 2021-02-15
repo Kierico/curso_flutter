@@ -130,7 +130,8 @@ class ListaTransferenciasState extends State<ListaTransferencias> {
             return FormularioTransferencia();
           }));
           future.then((transferenciaRecebida) {
-            /* verifica para nao dar erro ao voltar na page de transferencia. */
+            /* verifica para nao dar erro ao voltar da page de formuário para a 
+            * page de transferencia. */
             if (transferenciaRecebida != null) {
               setState(() {
                 widget._transferencias.add(transferenciaRecebida);
