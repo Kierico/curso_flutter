@@ -1,0 +1,21 @@
+Refatore o projeto organizando por meio de diretórios. No nosso exemplo, consideramos os seguintes diretórios:
+
+    ° models -> colocar código para modelos;
+    ° screens -> Widgets que representam uma tela inteira;
+    ° components -> Widgets que representam componentes menores reutilizáveis.
+
+    Na estrutura de 'screen', fique à vontade para decidir se prefere um subdiretório 'transferencia' ou criar arquivos com sufixo '_transferencia'.
+
+Durante a migração do código realize os imports necessários e também aproveite para refatorar o código, como é caso de extrair funções e constantes. Lembre-se também de remover código desnecessário, como é o caso dos 'printDebug()s' e do 'delay' utilizado para simular o problema no 'StatefulWidget'.
+
+    Se identificar mais pontos de refatoração, fique à vontade para praticar e aplicar.
+
+Após finalizar toda a refatoração, teste o App e veja se ele funciona como o esperado.
+
+    Esse formato de organização do projeto é baseado em ¹"boas práticas da comunidade".
+¹https://medium.com/flutter-community/flutter-code-organization-de3a4c219149
+
+
+    OPINIÃO DO INSTRUTOR:
+
+https://github.com/alura-cursos/flutter-fundamentos/commit/5427bcc7ac0596bd4d5580b42ec9a47a8613fd24
